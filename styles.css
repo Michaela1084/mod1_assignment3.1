@@ -1,0 +1,185 @@
+*{
+   /* border: 1px solid red;  */
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    /* flex-direction: row;
+    justify-content: space-between; */
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    top: 0px;
+}
+.nav-container{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+ 
+}
+
+.navbar-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    width: 150px;
+    font-size: 25px;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.navlist{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.nav-item{
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.container-for-words{
+    
+    text-align: center;
+    color: white;
+   
+}
+.words-on-picture {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 125px;
+    font-family: ;
+}
+
+
+.show{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 25px;
+    width: 1000px;
+    margin-top: 25px;
+    border-bottom: 1px solid lightgray;
+}
+
+.show-img{
+    padding-right: 25px;
+    display: flex;
+   
+
+    
+}
+
+.show-time{
+
+}
+
+p{
+    margin: 0px;
+    padding-top: -5px;
+}
+
+.button{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  
+}
+
+.btn-adj{
+    background-color: rgb(255, 196, 87);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 1px solid black ;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 250px ;
+    grid-gap: 100px;
+}
+
+
+footer{
+    margin-bottom: 0px;
+}
+.bottom{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+
+}
+
+.map{
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+
+}
+
+
+.mapimg {
+    width: 250px;
+
+}
+
+
+.footinfo{
+    display: fex;
+    flex-direction: column;
+    width: 25%;
+    font: .6em  ;
+}
+
+.footshows{
+    display: fex;
+    flex-direction: column;
+    width: 25%;
+    font: .6em ;
+}
+
+.social {
+    display: fex;
+    flex-direction: column;
+    width: 25%;
+    font: .6em 
+}
+
+.foothead{
+    font-size: 2em;
+
+}
+
+.tiny{
+    margin: 3px;
+
+}
+
